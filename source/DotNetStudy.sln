@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet.Basic", "DotNet.Basic", "{2659C542-BC18-4C37-A958-C16DF41FC827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreStringAllSame", "DotNet.Basic\AreStringAllSame\AreStringAllSame.csproj", "{17D72CDF-5D97-47D2-BFB5-73934EB8DDCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D72CDF-5D97-47D2-BFB5-73934EB8DDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D72CDF-5D97-47D2-BFB5-73934EB8DDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D72CDF-5D97-47D2-BFB5-73934EB8DDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D72CDF-5D97-47D2-BFB5-73934EB8DDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17D72CDF-5D97-47D2-BFB5-73934EB8DDCA} = {2659C542-BC18-4C37-A958-C16DF41FC827}
+	EndGlobalSection
+EndGlobal
