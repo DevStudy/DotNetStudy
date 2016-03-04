@@ -23,15 +23,12 @@ namespace AreStringAllSame
 
             fixed (char* ap = a)
             {
-               Console.WriteLine((uint)ap);
+               Console.WriteLine((ulong)ap);
             }
             fixed (char* ap = b)
             {
-                Console.WriteLine((uint)ap);
+                Console.WriteLine((ulong)ap);
             }
-
-
-
 
             Console.Read();
         }
