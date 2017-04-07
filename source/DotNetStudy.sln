@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet.Basic", "DotNet.Basic", "{2659C542-BC18-4C37-A958-C16DF41FC827}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebFromApp", "DotNet.Core\WebFromApp\WebFromApp.xproj", "{788F73B8-9A22-4381-9311-326AC03E8D83}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAPIMvc5", "DotNet.Core\WebAPIMvc5\WebAPIMvc5.xproj", "{5EFF0BF2-D4A9-4544-A055-4A7D3A544BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "DotNet.Basic\Lambda\Lambda.csproj", "{6708FDBC-68ED-42EC-85EA-2DA7CB375090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,14 @@ Global
 		{5EFF0BF2-D4A9-4544-A055-4A7D3A544BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5EFF0BF2-D4A9-4544-A055-4A7D3A544BA9}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EFF0BF2-D4A9-4544-A055-4A7D3A544BA9}.Release|x86.Build.0 = Release|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Debug|x86.Build.0 = Debug|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Release|x86.ActiveCfg = Release|Any CPU
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +96,6 @@ Global
 		{2C909AD4-C893-4F2F-BD1D-EBA02CF60A85} = {9013606D-0604-4C95-B0DE-B4C55712D0C0}
 		{788F73B8-9A22-4381-9311-326AC03E8D83} = {9013606D-0604-4C95-B0DE-B4C55712D0C0}
 		{5EFF0BF2-D4A9-4544-A055-4A7D3A544BA9} = {9013606D-0604-4C95-B0DE-B4C55712D0C0}
+		{6708FDBC-68ED-42EC-85EA-2DA7CB375090} = {2659C542-BC18-4C37-A958-C16DF41FC827}
 	EndGlobalSection
 EndGlobal
