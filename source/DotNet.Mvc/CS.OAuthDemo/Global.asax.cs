@@ -11,7 +11,7 @@ namespace CS.OAuthDemo
     {
         protected void Application_Start()
         {
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(WebApiConfig.Register); //已经Startup中注册
         }
     }
 }
