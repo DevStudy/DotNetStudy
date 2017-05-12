@@ -2,6 +2,7 @@
 using System;
 using System.Web.Http;
 using CS.OAuthDemo;
+using CS.OAuthDemo.Providers;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
@@ -35,7 +36,7 @@ namespace CS.OAuthDemo
                 TokenEndpointPath = new PathString("/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
                 //Provider = new SimpleAuthorizationServerProvider()
-                Provider = new OAuthAuthorizationServerProvider()
+                Provider = new SimpleAuthorizationServerProvider()
             };
 
             // Token Generation
